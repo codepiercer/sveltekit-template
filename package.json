@@ -11,8 +11,10 @@
     "husky": "husky install && husky add .husky/pre-commit \" npm run lint\""
   },
   "devDependencies": {
-    "@codepiercer/svelte-tailwind": "0.0.9",
-    "@sveltejs/adapter-auto": "1.0.0"
+    "@codepiercer/svelte-tailwind": "0.1.2",
+    "@sveltejs/adapter-auto": "1.0.2",
+    "@tanstack/svelte-query": "4.24.4",
+    "svelte-french-toast": "1.0.3"
   },
   "type": "module"
 }
