@@ -8,10 +8,10 @@
     "preview": "npm run build && vite preview",
     "lint": "prettier --plugin-search-dir=. . --check && eslint .",
     "lint:fix": "prettier --plugin-search-dir=. . --write && eslint . --fix",
-    "husky": "husky install && husky add .husky/pre-commit \" npm run lint\""
+    "postinstall": "husky install"
   },
   "devDependencies": {
-    "@codepiercer/svelte-tailwind": "0.1.20",
+    "@codepiercer/svelte-tailwind": "0.2.8",
     "@sveltejs/adapter-auto": "2.0.0",
     "@tanstack/svelte-query": "4.24.4",
     "svelte-forms-lib": "2.0.1",
