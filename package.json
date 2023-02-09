@@ -11,11 +11,8 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@codepiercer/svelte-tailwind": "0.2.8",
-    "@sveltejs/adapter-auto": "2.0.0",
-    "@tanstack/svelte-query": "4.24.4",
-    "svelte-forms-lib": "2.0.1",
-    "svelte-french-toast": "1.0.3"
+    "@codepiercer/svelte-tailwind": "0.2.10",
+    "@sveltejs/adapter-auto": "2.0.0"
   },
   "type": "module"
 }
