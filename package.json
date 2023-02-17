@@ -11,7 +11,7 @@
     "postinstall": "husky install"
   },
   "devDependencies": {
-    "@codepiercer/svelte-tailwind": "0.2.19",
+    "@codepiercer/svelte-tailwind": "0.3.3",
     "@sveltejs/adapter-auto": "2.0.0"
   },
   "type": "module"
