@@ -8,6 +8,6 @@ services:
     tty: true
     stdin_open: true
     environment:
-      - PORT=5173
+      - PORT=3005
     ports:
-      - 5173:5173
+      - 3005:3005

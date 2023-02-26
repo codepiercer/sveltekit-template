@@ -1,10 +1,10 @@
 module.exports = {
   root: true,
-  extends: ['eslint:recommended', 'prettier'],
-  plugins: ['svelte3'],
-  overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],
+  extends: ["eslint:recommended", "prettier"],
+  plugins: ["svelte3"],
+  overrides: [{ files: ["*.svelte"], processor: "svelte3/svelte3" }],
   parserOptions: {
-    sourceType: 'module',
+    sourceType: "module",
     ecmaVersion: 2020
   },
   env: {
@@ -13,7 +13,8 @@ module.exports = {
     node: true
   },
   rules: {
-    'object-shorthand': ['error', 'always'],
-    'prefer-const': 'error'
+    "object-shorthand": ["error", "always"],
+    "prefer-const": "error",
+    quotes: [`error`, `backtick`]
   }
 }

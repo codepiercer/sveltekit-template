@@ -1,5 +1,5 @@
 <script>
-  import { Button, Dialog } from '@codepiercer/svelte-tailwind'
+  import { Button, Dialog } from "@codepiercer/svelte-tailwind"
 
   let dialog
 </script>
