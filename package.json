@@ -7,11 +7,10 @@
     "build": "npm run lint && vite build",
     "preview": "npm run build && vite preview",
     "lint": "prettier . --check && eslint .",
-    "lint:fix": "prettier . --write && eslint . --fix",
-    "postinstall": "husky install"
+    "lint:fix": "prettier . --write && eslint . --fix"
   },
   "devDependencies": {
-    "@codepiercer/svelte-tailwind": "0.4.0",
+    "@codepiercer/svelte-tailwind": "0.6.9",
     "@sveltejs/adapter-auto": "2.0.0"
   },
   "type": "module"
