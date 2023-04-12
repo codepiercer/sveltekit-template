@@ -11,7 +11,7 @@
     "husky": "husky install"
   },
   "devDependencies": {
-    "@codepiercer/svelte-tailwind": "0.7.1",
+    "@codepiercer/svelte-tailwind": "0.8.23",
     "@sveltejs/adapter-auto": "2.0.0",
     "husky": "8.0.3"
   },
